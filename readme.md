@@ -1,6 +1,10 @@
-# rtsp-screen-streamer
+> **rtsp-screen-streamer**  
+> 실시간 화면을 MJPEG 포맷으로 캡처해 RTSP로 전송하는 Go 기반 화면 스트리머
 
-실시간 화면을 MJPEG 포맷으로 캡처해 RTSP로 전송하는 Go 기반 화면 스트리머
+---
+<p align="right">
+  📘 <a href="#english-summary">View English Summary</a>
+</p>
 
 ## 특징
 
@@ -50,3 +54,13 @@ rtsp-screen-streamer/
 ## 개선 방향
 - H.264 전송 지원 (FFmpeg)
 - GUI 지원 및 멀티 모니터 실시간 선택
+
+---
+## English Summary
+
+rtsp-screen-streamer is a lightweight RTSP screen streamer written in Go.
+
+- Captures screen as MJPEG using `screenshot` and `imaging`
+- Streams via built-in RTSP server (`gortsplib`)
+- Starts only when a client connects
+- Configurable via `config.yaml` (resolution, fps, monitor)
