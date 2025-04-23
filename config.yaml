@@ -1,0 +1,16 @@
+## Debug Log
+debugYn: "N"
+
+## Video Config
+rtpPayloadMaxSize: 1200
+resizeWidth: 1024
+resizeHeight: 640
+frameRate: 25
+jpegQuality: 70
+
+## Port, Path
+rtspPort: 1554
+rtspPath: "temp"
+
+## Monitor Index Config
+displayIndex: 0
